@@ -1,0 +1,21 @@
+name: firestore_service_flutterfire
+description: A Firestore service, implementing firestore_service_interface by wrapping Flutterfire's cloud_firestore plugin.
+version: 0.0.0-a1
+publish_to: none
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  cloud_firestore: ^4.8.1
+  flutter:
+    sdk: flutter
+  
+  json_utils: ^0.0.0-a1
+  firestore_service_interface: ^0.0.0-a1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  enspyr_lints: ^0.0.0-a1
