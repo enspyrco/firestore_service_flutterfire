@@ -1,12 +1,5 @@
 dependency_overrides:
-  json_utils:
-    git: https://github.com/enspyrco/json_utils
-  firestore_service_interface:
-    git: https://github.com/enspyrco/firestore_service_interface
-  enspyr_lints:
-    git: https://github.com/enspyrco/enspyr_lints
-
-# dependency_overrides:
+# where are we? 
 #   json_utils:
 #     path: ../../../../dart/utils/json_utils
 #   firestore_service_interface:
