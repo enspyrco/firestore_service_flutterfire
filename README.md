@@ -1,4 +1,4 @@
-# firestore_service_flutterfire
+# flutterfire_firestore_service
 
 *A Firestore service, implementing firestore_service_interface by wrapping Flutterfire's cloud_firestore plugin.*
 

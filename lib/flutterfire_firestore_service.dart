@@ -1,4 +1,4 @@
-library firestore_service_flutterfire;
+library flutterfire_firestore_service;
 
 import 'dart:async';
 
@@ -6,12 +6,12 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firestore_service_interface/firestore_service_interface.dart';
 import 'package:json_utils/json_utils.dart';
 
-import 'cloud_firestore_extensions.dart';
+import 'extensions/cloud_firestore_extensions.dart';
 
-class FirestoreServiceFlutterfire implements FirestoreService {
+class FlutterfireFirestoreService implements FirestoreService {
   final FirebaseFirestore _firestore;
 
-  FirestoreServiceFlutterfire({FirebaseFirestore? firestore})
+  FlutterfireFirestoreService({FirebaseFirestore? firestore})
       : _firestore = firestore ?? FirebaseFirestore.instance;
 
   // Add a document with the given data at the given path and return the

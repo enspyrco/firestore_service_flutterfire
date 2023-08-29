@@ -1,4 +1,4 @@
-name: firestore_service_flutterfire
+name: flutterfire_firestore_service
 description: A Firestore service, implementing firestore_service_interface by wrapping Flutterfire's cloud_firestore plugin.
 version: 0.0.0-a1
 publish_to: none
